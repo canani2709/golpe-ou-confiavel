@@ -15,7 +15,7 @@ As 8 imagens em `midia/` foram **criadas para o jogo** em 26/10/2026. Não são 
 | 7 · Eventos BR Tickets | `07-turne.png` | caso noticiado (Canaltech) |
 | 8 · Libera Brasil Gov | `08-programa.png` | caso noticiado (Olhar Digital) |
 
-A fonte das artes (HTML) está em `.playwright-mcp/gerar-artes.html`.
+As artes agora estão desenhadas diretamente em HTML/CSS/SVG dentro de `golpe-ou-confiavel.html` (campo `art` de cada caso); os PNGs não são mais usados.
 
 ## Para trocar por print de anúncio real
 
@@ -29,7 +29,7 @@ Na lista `MIDIA` do jogo, use `{ src: "midia/arquivo.png", real: true }`. A etiq
   - [1642018037715407](https://www.facebook.com/ads/library/?id=1642018037715407) · 24/10/2026, ativo por 3 h
   - [2213133892952889](https://www.facebook.com/ads/library/?id=2213133892952889) · 25/10/2026, ativo por 22 h, link CONEXAO-SEGURA.COM
   - [1854870392176583](https://www.facebook.com/ads/library/?id=1854870392176583) · 11 a 17/10/2026, **removido pela Meta**
-  - Páginas com nome de pessoa no mesmo esquema ("Marcos Vinicius", "Sabrina Oliveira"), link exibido como SERASA.COM.BR
+  - Outras páginas com nome de pessoa no mesmo esquema, link exibido como SERASA.COM.BR (nomes omitidos: podem ser de pessoas reais usadas pelos golpistas)
   - **Por que não foram usados:** todos são vídeos com rosto identificável (simulação de telejornal, homem falando para a câmera). A busca filtrada só por imagem retornou 0 resultados.
   - **Opção sem rosto:** o cartão do anúncio 1854870392176583 mostra só a página "Libera Brasil" e o aviso de remoção da Meta. Não é o anúncio em si, mas pode servir como material de aula.
 - "Desenrola" e "Desenrola Brasil" retornaram anúncios legítimos (governo, candidatos, bancos, livros).
