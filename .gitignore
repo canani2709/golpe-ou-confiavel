@@ -1,0 +1,5 @@
+# sobras de automação de navegador e prints antigos
+.playwright-mcp/
+teste/
+# imagens antigas: as artes agora estão desenhadas dentro do HTML
+midia/*.png
